@@ -1,22 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col } from 'react-simple-flex-grid';
-import "react-simple-flex-grid/lib/main.css";
+import React, { Component } from "react";
+import { Container } from "reactstrap";
+import Header from "./Header.js";
+import "./Home.css";
+
+export default class Home extends Component {
+  state = {
+    response: ""
+  };
 
 
+  render() {
+    
 
-function Home(/* props */) {
-  return <div>Lets kick start the rockets. yo
+    return (
 
-<Link to={`/about`}>About</Link>
-<Row gutter={40}>
-   <Col span={4}>clear
-   </Col>
-   <Col span={4}>col-4</Col>
-   <Col span={4}>col-4</Col>
-</Row>
+      <div className="maincontainer">
+        <Header />
 
-  </div>;
+        <Container>
+
+Home is where happiness is           
+        </Container>
+      </div>
+
+      
+    );
+  }
 }
-
-export default Home;

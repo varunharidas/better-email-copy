@@ -1,0 +1,41 @@
+.App {
+    text-align: center;
+    height: 100%; 
+  }
+
+  .maincontainer{
+    min-height: 100vh; 
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+
+
+
+  .container{
+    
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 50vh;
+  padding-bottom: 6rem;
+  }
+  .link{
+    color: #242424;
+
+  }
+ .body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  line-height: 1.75;
+    color: #242424;
+    font-size: 1.1rem;
+    letter-spacing: .033rem;
+    height: 100%;
+ }
+
+
+  

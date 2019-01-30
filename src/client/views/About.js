@@ -1,12 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Container } from "reactstrap";
+import Header from "./Header.js";
 
-function About(/* props */) {
-  return <div>Test about 
+export default class About extends Component {
+ 
 
-<Link to={`/`}>Back</Link>
 
-  </div>;
+  render() {
+    
+
+    return (
+
+      <div className="maincontainer">
+        <Header />
+
+        <Container>
+
+         Test about
+          
+        </Container>
+      </div>
+
+      
+    );
+  }
 }
-
-export default About;

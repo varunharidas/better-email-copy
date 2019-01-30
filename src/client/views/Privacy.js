@@ -1,8 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Container } from "reactstrap";
+import Header from "./Header.js";
 
-function Privacy(/* props */) {
-  return <div>Test Privacy success </div>;
+export default class Privacy extends Component {
+ 
+
+
+  render() {
+    
+
+    return (
+
+      <div className="maincontainer">
+        <Header />
+
+        <Container>
+
+         Test privacy
+          
+        </Container>
+      </div>
+
+      
+    );
+  }
 }
-
-export default Privacy;

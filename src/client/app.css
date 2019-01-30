@@ -6,3 +6,19 @@ body {
   text-align: center;
   margin: auto;
 }
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(./fonts/IBM/IBMPlexSans-Light.woff2) format("woff2"),url(./fonts/IBM/IBMPlexSans-Light.woff) format("woff");
+  
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/IBM/IBMPlexSans-Regular.woff2) format("woff2"),url(./fonts/IBM/IBMPlexSans-Regular.woff) format("woff");
+  
+}
