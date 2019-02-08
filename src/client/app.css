@@ -22,3 +22,30 @@ body {
   src: url(./fonts/IBM/IBMPlexSans-Regular.woff2) format("woff2"),url(./fonts/IBM/IBMPlexSans-Regular.woff) format("woff");
   
 }
+
+@font-face {font-family: "SharpSansNo1-Book";
+  src: url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.eot"); /* IE9*/
+  src: url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./fonts/SharpSans/6a1891db0152c7835cc61d5e95578b29.svg#SharpSansNo1-Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "SharpSansNo1-Medium";
+  src: url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.eot"); /* IE9*/
+  src: url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./fonts/SharpSans/30bb285a0c5e40fc620a793eff494dfd.svg#SharpSansNo1-Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "SharpSansNo1-Bold";
+  src: url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.eot"); /* IE9*/
+  src: url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.svg#SharpSansNo1-Bold") format("svg"); /* iOS 4.1- */
+}

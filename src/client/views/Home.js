@@ -1,12 +1,26 @@
 import React, { Component } from "react";
-import { Container } from "reactstrap";
+import { Container, Col } from "reactstrap";
 import Header from "./Header.js";
 import "./Home.css";
 
 export default class Home extends Component {
   state = {
-    response: ""
+
+    data: []
   };
+
+
+  componentDidMount() {
+    fetch('/api/hello')
+    .then(res => {
+        console.log(res);
+        return res.json()
+     })
+    .then(data => { 
+        console.log(data); 
+        this.setState({ data })
+     });
+  }
 
 
   render() {
@@ -15,11 +29,28 @@ export default class Home extends Component {
     return (
 
       <div className="maincontainer">
-        <Header />
+          <Col sm="12" md={{ size: 6, offset: 3 }}>
+          
+          
+          <h2 className='logo-text'>
+Better Email companies</h2>     
+
+<h3 className='logo-subtext'>
+Learn how some of the best companies are doing sales, by looking at their email campaigns.
+
+</h3>        
+          
+          </Col>
 
         <Container>
+ 
+<div className="App">
+                <h3>Emails</h3>
+                {this.state.data.map(data =>
+                <div key={data.id}><h2>{data.title}</h2>{data.copy}</div>
+              )}
+            </div>
 
-Home is where happiness is           
         </Container>
       </div>
 

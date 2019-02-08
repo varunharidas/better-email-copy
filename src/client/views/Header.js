@@ -35,15 +35,15 @@ class Header extends React.Component {
   render() {
     return (
       
-         <div className="max-width">
+         <div className="site-header">
         
 
         <Navbar color="full light" light expand="md">
           <NavbarBrand>
-          <NavLink to="/" tag={RRNavLink}>Better Email Copy</NavLink> 
+          <NavLink className="logo-text" to="/" tag={RRNavLink}>Better Email Copy</NavLink> 
           
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+          {/* <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
           <Nav className="ml-auto" navbar>
 
@@ -55,16 +55,7 @@ class Header extends React.Component {
               </NavItem>
               </Nav>
 
-          </Collapse>
-
-          {/* <Nav className="ml-auto" navbar>
-            <NavItem>
-            <NavLink className="menu-links" to="/password-api" activeClassName="active" tag={RRNavLink}>Sponsors</NavLink> 
-            </NavItem>
-            <NavItem>
-            <NavLink className="menu-links" to="/about" activeClassName="active" tag={RRNavLink}>Company</NavLink> 
-            </NavItem>
-            </Nav> */}
+          </Collapse> */}
         
         </Navbar>
       </div>
