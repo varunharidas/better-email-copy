@@ -49,3 +49,21 @@ body {
   url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url("./fonts/SharpSans/154ebfcef3ca74b92a56a5826ee85d74.svg#SharpSansNo1-Bold") format("svg"); /* iOS 4.1- */
 }
+
+@font-face {font-family: "SharpSansNo1-Light";
+  src: url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.eot"); /* IE9*/
+  src: url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./fonts/SharpSans/4b20d1a4e849e41959b1c169dd9683c4.svg#SharpSansNo1-Light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "SharpSansNo1-Thin";
+  src: url("./fonts/SharpSans/91a4aad912f211050119bffe257af07d.eot"); /* IE9*/
+  src: url("./fonts/SharpSans/91a4aad912f211050119bffe257af07d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SharpSans/91a4aad912f211050119bffe257af07d.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SharpSans/91a4aad912f211050119bffe257af07d.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SharpSans/91a4aad912f211050119bffe257af07d.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/fonts/SharpSans/91a4aad912f211050119bffe257af07d.svg#SharpSansNo1-Thin") format("svg"); /* iOS 4.1- */
+}

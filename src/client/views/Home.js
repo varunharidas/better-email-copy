@@ -33,10 +33,10 @@ export default class Home extends Component {
           
           
           <h2 className='logo-text'>
-Better Email companies</h2>     
+Better Email Copies</h2>     
 
 <h3 className='logo-subtext'>
-Learn how some of the best companies are doing sales, by looking at their email campaigns.
+Learn how some of the best companies are doing it right.
 
 </h3>        
           
@@ -44,12 +44,12 @@ Learn how some of the best companies are doing sales, by looking at their email 
 
         <Container>
  
-<div className="App">
+{/* <div>
                 <h3>Emails</h3>
                 {this.state.data.map(data =>
                 <div key={data.id}><h2>{data.title}</h2>{data.copy}</div>
               )}
-            </div>
+            </div> */}
 
         </Container>
       </div>
